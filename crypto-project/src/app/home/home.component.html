@@ -1,9 +1,17 @@
 <nb-layout>
   <nb-layout-header fixed>Company Name</nb-layout-header>
 
-  <nb-sidebar>Sidebar Content</nb-sidebar>
-
   <nb-layout-column>
-    Page Content <button nbButton>Hello World</button>
+      <div class="container">
+        <div class ="row">
+          <app-ticker cKey="BTC"></app-ticker>
+          <app-ticker cKey="ETH"></app-ticker>
+          <app-ticker cKey="XRP"></app-ticker>
+          <app-ticker cKey="LTC"></app-ticker>
+          <app-ticker cKey="BTCASH"></app-ticker>
+          <app-ticker cKey="DASH"></app-ticker>
+          <app-ticker cKey="DAI"></app-ticker>
+        </div>
+      </div>
   </nb-layout-column>
 </nb-layout>
