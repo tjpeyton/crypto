@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  overflow: auto;
+  width: max-content;
+}
+
+.container {
+  overflow: auto;
+  white-space: nowrap;
+  width: max-content;
+}

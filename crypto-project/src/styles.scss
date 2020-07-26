@@ -8,3 +8,8 @@
 @include nb-install() {
   @include nb-theme-global();
 };
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
